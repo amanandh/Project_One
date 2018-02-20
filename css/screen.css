@@ -203,6 +203,14 @@ label {
 }
 
 
+/* ================= CSS ================= */
 
-
+/* mobile first */
+@media (max-width: 480px){
+  form{
+    margin-left: 1em; /* 16px */
+    margin-right: 1em; /* 16px */
+    width: 90%;
+  }
+}
 
