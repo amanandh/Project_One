@@ -206,6 +206,7 @@ label {
 /* ================= CSS ================= */
 
 
+
 /* mobile first */
 @media screen and (min-width: 480px){
   form{
@@ -220,9 +221,13 @@ label {
 
 @media screen and (min-width: 768px){
   form{
-    text-align: right;
+    width: 35%;
+    float: right;
+    padding-top: 1.875em; /* 30px */
+
   }
   img{
-    width: 65%;
+    width: 55%;
+    float: left;
   }
 }
