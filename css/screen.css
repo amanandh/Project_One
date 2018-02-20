@@ -206,12 +206,38 @@ label {
 /* ================= CSS ================= */
 
 
+h1{
+  padding-top: 1.25em;   /*  20px / 125%    */
+  padding-bottom: 1.25em;    /*  20px / 125%   */
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+  color: #990033;
+  font-size: 1.60em;   /*  25.6px  / ~ 160%  */
+}
+
+li{
+  padding-bottom: 1.1875em;  /*  19px  / ~ 190%  */
+}
+label{
+  font-family: Times, serif, sans-serif;
+}
+
+img{
+  padding-bottom: 0.625em;    /*  10px  / 62.5%  */
+}
+input[type = "text"], input[type = "email"], input[type = "submit"]{
+  border: none;
+  background-color: #e6e6e6;
+  padding: 0.3em;
+  margin-bottom: 0.625em;    /*  10px  / 62.5%  */
+}
+
 
 /* mobile first */
 @media screen and (min-width: 480px){
   form{
-    margin-left: 1em; /* 16px */
-    margin-right: 1em; /* 16px */
+    padding-left: 1em; /* 16px / 100 %   */
+    padding-right: 1em; /* 16px / 100 %   */
     width: 100%;
   }
   img{
@@ -223,7 +249,7 @@ label {
   form{
     width: 35%;
     float: right;
-    padding-top: 1.875em; /* 30px */
+    padding-top: 1.875em; /* 30px / ~ 188% */
 
   }
   img{
