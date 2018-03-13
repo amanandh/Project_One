@@ -1,5 +1,4 @@
-// jQuery 3.x-style ready event and locally scoped $
-//copied and pasted
+//JS Validated
 
 jQuery(function($) {
   $('html').removeClass('nojs');
