@@ -206,6 +206,14 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/*
+
+body{
+  background-image: url('https://content.mycutegraphics.com/backgrounds/hearts/pink-outline-heart-background.gif');
+}
+
+*/
+
 label {
   display: block;
 }
@@ -213,7 +221,7 @@ label {
 h1{
   padding-top: 1.2em;   /*  26px / 120%    */
   padding-bottom: 1.2em;    /*  26px / 120%   */
-  font-family: 'Nanum Myeongjo', serif, Times, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: bold;
   color: #990033;
   font-size: 1.667em;   /*  36.674px  / ~ 166.7%  */
@@ -223,7 +231,7 @@ li{
   padding-bottom: 1.2em;  /*  26px  / ~ 120%  */
 }
 label{
-  font-family: serif, Times, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 img{
