@@ -274,7 +274,7 @@ input[type = "text"], input[type = "email"], input[type = "submit"]{
     padding-bottom: 0.6em;   /*  13.197px  / 60%  */
   }
   form{
-    width: 35%;
+    width: 40%;
     float: right;
 
   }
