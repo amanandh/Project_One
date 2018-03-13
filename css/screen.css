@@ -189,6 +189,8 @@ img, audio, video {
 /*
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
+
+CHANGE UR EM's & PX's!!!!!!!!!!!!!!!!
 */
 
 html {
@@ -201,10 +203,6 @@ html {
 label {
   display: block;
 }
-
-
-/* ================= CSS ================= */
-
 
 h1{
   padding-top: 1.25em;   /*  20px / 125%    */
