@@ -264,10 +264,18 @@ input[type = "text"], input[type = "email"], input[type = "submit"]{
 
 /* bigger screens */
 @media screen and (min-width: 768px){
+  h1{
+    text-align: center;
+    font-size: 2.779em; /* 61.136px  /  277.9% */
+  }
+  p{
+    text-align: center;
+    font-size: 1.375em;  /* 22px */
+    padding-bottom: 0.6em;   /*  13.197px  / 60%  */
+  }
   form{
     width: 35%;
     float: right;
-    padding-top: 1.667em; /* 36.674px / ~ 166.7% */
 
   }
   img{
