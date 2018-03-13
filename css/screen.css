@@ -186,6 +186,10 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
+
+
+
+
 /*
   
   ****** Modular scale used below: ******
@@ -209,7 +213,7 @@ label {
 h1{
   padding-top: 1.2em;   /*  26px / 120%    */
   padding-bottom: 1.2em;    /*  26px / 120%   */
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Nanum Myeongjo', serif, Times, sans-serif;
   font-weight: bold;
   color: #990033;
   font-size: 1.667em;   /*  36.674px  / ~ 166.7%  */
@@ -219,7 +223,7 @@ li{
   padding-bottom: 1.2em;  /*  26px  / ~ 120%  */
 }
 label{
-  font-family: Times, serif, sans-serif;
+  font-family: serif, Times, sans-serif;
 }
 
 img{
