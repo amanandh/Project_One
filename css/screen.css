@@ -230,6 +230,12 @@ h1{
 li{
   padding-bottom: 1.2em;  /*  26px  / ~ 120%  */
 }
+
+p{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding-bottom: 1.2em; /*  26px  /  ~120% */
+}
+
 label{
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
